@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@kelysty/eslint-config",
+    "@kelysty/eslint-config/prettier"
+  ],
+  "root": true,
+  "ignorePatterns": [
+    "node_modules",
+    "**/*.config.*",
+    "dist"
+  ]
+}

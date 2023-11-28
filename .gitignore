@@ -1,0 +1,15 @@
+# IDE settings
+.idea
+.vscode
+
+# Dependencies
+node_modules
+
+# build
+dist
+build
+esm
+cjs
+
+# tests
+coverage

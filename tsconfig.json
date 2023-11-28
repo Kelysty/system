@@ -1,0 +1,21 @@
+{
+  "extends": "@kelysty/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "types": ["jest"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "**/__tests__",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/__stories__",
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+  ]
+}
