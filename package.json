@@ -1,15 +1,19 @@
 {
-  "name": "@kelysty/npm-template",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@kelysty/system",
+  "version": "1.0.0",
+  "description": "This is a pack of Kelysty React UI system components",
   "license": "MIT",
   "author": "Kelysty",
   "contributors": [
     "Ivan Postarnak"
   ],
   "keywords": [
-    "npm",
-    "template",
+    "react",
+    "library",
+    "components",
+    "ui",
+    "system",
+    "provider",
     "kelysty"
   ],
   "main": "dist/index.js",
@@ -18,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kelysty/npm-template.git"
+    "url": "git+https://github.com/Kelysty/system.git"
   },
   "bugs": {
-    "url": "https://github.com/Kelysty/npm-template.git/issues"
+    "url": "https://github.com/Kelysty/system.git/issues"
   },
-  "homepage": "https://github.com/Kelysty/npm-template.git#readme",
+  "homepage": "https://github.com/Kelysty/system.git#readme",
   "scripts": {
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
