@@ -1,2 +1,1 @@
-export * from './Component';
-// test commit sign
+export * from './providers';
