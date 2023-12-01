@@ -16,7 +16,7 @@ interface RequiredProps {
 export type LanguageProviderProps = Partial<RequiredProps>;
 
 /**
- * `KELYSTY`: This is a LanguageProvider, that constains current language
+ * `KELYSTY`: This is a LanguageProvider, that contains current language
  * state and methods to change it;
  */
 export const LanguageProvider = ({defaultLanguage, languages, children}: LanguageProviderProps) => {

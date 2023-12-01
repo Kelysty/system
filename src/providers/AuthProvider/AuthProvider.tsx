@@ -15,7 +15,7 @@ interface RequiredProps {
 export type AuthProviderProps = Partial<RequiredProps>;
 
 /**
- * `KELYSTY`: This is a AuthProvider, that constains current auth
+ * `KELYSTY`: This is a AuthProvider, that contains current auth
  * status and methods to control it;
  */
 export const AuthProvider = ({defaultIsAuth, children}: AuthProviderProps) => {

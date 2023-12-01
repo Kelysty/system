@@ -17,7 +17,7 @@ interface RequiredProps {
 export type DeviceProviderProps = Partial<RequiredProps>;
 
 /**
- * `KELYSTY`: It is a DeviceProvider, that constains current device state;
+ * `KELYSTY`: It is a DeviceProvider, that contains current device state;
  */
 export const DeviceProvider = ({
   mobileMaxWidth = DEFAULT_MOBILE_MAX_WIDTH,

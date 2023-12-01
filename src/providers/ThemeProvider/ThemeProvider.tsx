@@ -15,7 +15,7 @@ interface RequiredProps {
 export type ThemeProviderProps = Partial<RequiredProps>;
 
 /**
- * `KELYSTY`: This is a ThemeProvider, that constains current theme
+ * `KELYSTY`: This is a ThemeProvider, that contains current theme
  * state and methods to change it;
  */
 export const ThemeProvider = ({defaultTheme, children}: ThemeProviderProps) => {
