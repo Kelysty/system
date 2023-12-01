@@ -17,6 +17,7 @@ export interface ThemeContextValue {
  */
 const initialThemeContextValue: ThemeContextValue = {
   theme: DEFAULT_THEME,
+  // eslint-disable-next-line
   setTheme: (t: Theme) => console.log(t),
   toggleTheme: () => {},
 };

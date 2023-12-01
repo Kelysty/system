@@ -20,6 +20,7 @@ const initialAuthContextValue: AuthContextValue = {
   isAuth: DEFAULT_IS_AUTH,
   login: () => {},
   logout: () => {},
+  // eslint-disable-next-line
   setIsAuth: (isAuth: IsAuth) => console.log(isAuth),
 };
 

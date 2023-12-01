@@ -18,6 +18,7 @@ export interface LanguageContextValue {
 const initialLanguageContextValue: LanguageContextValue = {
   language: DEFAULT_LANGUAGE,
   availableLanguages: DEFAULT_LANGUAGES,
+  // eslint-disable-next-line
   setLanguage: (l: LanguageName) => console.log(l),
 };
 
