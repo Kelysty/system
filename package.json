@@ -37,7 +37,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "npm run lint:js && npm run lint:styles",
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "lint:styles": "stylelint '**/*.{css,scss}' --report-needless-disables",
+    "lint:styles": "stylelint '**/*.{css,scss}' --report-needless-disables --allow-empty-input",
     "prettier": "prettier '**/*.{js,md,yaml,yml,json}' --config .prettierrc.js",
     "test": "jest",
     "prepublishOnly": "npm run build"
