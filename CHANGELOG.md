@@ -1,3 +1,3 @@
-## 1.0.0 (2023-11-27)
+## 0.1.0 (2023-12-01)
 
-Initial release
+Initial release Beta
