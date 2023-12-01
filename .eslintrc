@@ -4,6 +4,9 @@
     "@kelysty/eslint-config/prettier"
   ],
   "root": true,
+  "rules": {
+    "valid-jsdoc":"off"
+  },
   "ignorePatterns": [
     "node_modules",
     "**/*.config.*",
